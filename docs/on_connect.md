@@ -4,7 +4,9 @@ These actions are performed on connect after the App has found a device
 ## Port 80
 ### init
 Endpoint: ```http://<Radio IP>/init?language=en```
+
 Returns a list of available functions. The language parameter sets the language of the API and the radio
+
 Response:
 ```
 <result>
@@ -31,7 +33,9 @@ Response:
 
 ### hotkeylist
 Endpoint: ```http://<Radio IP>/hotkeylist```
+
 Returns a list of hotkeys? Currently not sure how to configure a hotkey
+
 Response:
 ```
 <menu>
@@ -67,7 +71,9 @@ Response:
 
 ### checknewsw
 Endpoint: ```http://<Radio IP>/checknewsw```
+
 Returns probably YES if an update is available. Otherwise NO.
+
 Reponse:
 ```
 <result>NO</result>
@@ -75,7 +81,9 @@ Reponse:
 
 ### list
 Endpoint: ```http://<Radio IP>/list?id=1&start=1&count=250```
+
 Returns a list of menu items. See list.md for more information
+
 Response:
 ```
 <menu>
@@ -134,7 +142,9 @@ A HTTP on Port 52525 is connected twice
 
 ### root_XXYY.xml
 Endpoint: ```http://<Radio IP>:52525/root_XXYY.xml```
+
 Seems to be DLNA
+
 Response:
 ```
 <root>
@@ -198,4 +208,5 @@ Response:
 
 ### /xml/mediaU_s.jpg
 Endpoint: ```http://<Radio IP>:52525/xml/mediaU_s.jpg```
-A JPG icon
+
+Returns a JPG icon
