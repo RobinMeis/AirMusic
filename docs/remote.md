@@ -27,3 +27,17 @@ The App offers a virtual remote control with all buttons which are available on 
 |117| "3"           |
 |118| "4"           |
 |119| "5"           |
+
+Response:
+```
+<result>
+  <rt>OK</rt>
+</result>
+```
+
+OK is also returned for undocumented button IDs <= 181 (also negatives). There might be more buttons which aren't shown in the App. For invalid buttons it returns:
+```
+<result>
+  <rt>FAIL</rt>
+</result>
+```
