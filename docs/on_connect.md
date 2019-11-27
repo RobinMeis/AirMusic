@@ -34,7 +34,7 @@ Response:
 ### hotkeylist
 Endpoint: ```http://<Radio IP>/hotkeylist```
 
-Returns a list of hotkeys? Currently not sure how to configure a hotkey
+Returns a list of hotkeys for radio stations. See internet_radio.md for more information
 
 Response:
 ```
