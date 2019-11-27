@@ -82,7 +82,7 @@ Reponse:
 ### list
 Endpoint: ```http://<Radio IP>/list?id=1&start=1&count=250```
 
-Returns a list of menu items. See list.md for more information
+Returns a list of menu items. See menu.md for more information
 
 Response:
 ```
