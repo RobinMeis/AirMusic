@@ -5,6 +5,11 @@ The App offers a virtual remote control with all buttons which are available on 
 |ID |   Function    |
 |---|---------------|
 |1  | Home          |
+|2  | Up            |
+|3  | Down          |
+|4  | Left          |
+|5  | Right         |
+|6  | Enter         |
 |7  | On / Off      |
 |8  | Mute / Unmute |
 |9  | Volume Up     |
