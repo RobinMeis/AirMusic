@@ -2,7 +2,7 @@
 This file contains actions which are not fitting into any category
 
 ## setvol
-Enpoint: ```http://10.1.13.114/setvol?vol=7&mute=0```
+Enpoint: ```http://<Radio IP>/setvol?vol=7&mute=0```
 
 Sets the playback volume. Valid values for vol are 0 to 15. Valid values for mute are 0 or 1
 
