@@ -1,5 +1,5 @@
 # Bluetooth
-AUX input can be enabled by going to child 47. Afterwards playinfo becomes available. Volume can be set using setvol
+Bluetooth input can be enabled by going to child 104. Afterwards GetBTStatus becomes available. Volume can be set using setvol
 
 ## StartBTMatch
 Endpoint: ```http://<Radio IP>/StartBTMatch```
