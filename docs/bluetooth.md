@@ -30,5 +30,16 @@ Known values for Status:
 * 3: Connected and playing
 * 4: Connected and not playing
 
+## BTCMD
+Endpoint: ```http://<Radio IP>/BTCMD?cmd=1```
+
+Sends a command to the playback source
+
+Known values for cmd:
+* 1: Play / Pause
+* 2: Pause
+* 3: Next track
+* 4: Previous track
+
 ## leave
 Bluetooth can be left using gochild?id=1
